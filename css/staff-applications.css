@@ -1,0 +1,70 @@
+.bg-image {
+    background-image: url(../assets/images/staff_app_banner.jpg);
+}
+
+.content{
+  padding-bottom: 75px;
+}
+
+.reason-container {
+    display: flex;
+  }
+  
+.reason {
+    padding: 30px;
+    background-color: #1a1a1a;
+    border: 1px solid brown;
+    border-radius: 5px;
+  }
+.reason-info p {
+    text-align: center;
+  }
+
+.text-5xl {
+    color: brown;
+    font-size: 3rem;
+    margin-top: 0.5rem;
+    padding-bottom: 20px;
+  }
+
+.form-apply{
+    background-color: #1a1a1a;
+}
+
+.form-control {
+    color:white !important;
+    border-color: brown !important;
+    border-radius: 0% !important;
+    background-color:transparent !important;
+}
+
+.form-check {
+    color:white;
+}
+
+.btn-danger {
+  border-radius: 0% !important;
+  background-color: brown !important;
+}
+
+.welcome-text h1:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: brown;
+    margin: 30px auto 20px;
+  }
+  
+  .welcome-text h1 {
+    display: inline-block;
+    font-size: 20px;
+    color:white;
+    line-height: 35px;
+  }
+  .welcome-text h3 {
+    font-size: 15px;
+    line-height: 30px;
+    color:white;
+    padding: 10px;
+  }

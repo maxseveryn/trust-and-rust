@@ -1,6 +1,7 @@
 # Trust&Rust
 
-A clean and responsive landing page designed for **Rust** game servers.
+Clean and responsive landing page designed for **Rust** game servers.
+Project developed in 2023 as part of a university assignment.
 
 ## Pages
 

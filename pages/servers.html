@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Trust & Rust | Servers</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Maxym Severyn">
+      <meta 
+         name="description" 
+         content="Immerse yourself in the ultimate Rust gaming experience with 
+         Trust&Rust servers. Forge alliances, conquer the harsh landscapes, 
+         and build your legacy in a world where trust is the currency that matters. 
+         Join us and be part of a community where trust is earned, alliances are forged, and Rust's challenges are conquered together. 
+         Trust&Rust: Where the adventure begins, and trust is the key to survival.">
+      <link rel = "icon" href = "../assets/images/brand_logo.png" type = "image/x-icon"/>
+      <link href="../css/main.css" rel="stylesheet" />
+      <link href="../css/servers.css" rel="stylesheet" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   </head>
+
+   <body>
+
+    <i onclick="topFunction()" id="back-to-top" title="Go to top" class="fas fa-arrow-up"></i>
+
+      <header>
+         <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+               <div class ="navbar-homepage">
+                  <a class = "navbar-brand d-flex flex-row align-items-center" href = "homepage.html">
+                     <img class = "navbar-logo" src = "../assets/images/brand_logo.png">
+                     <p href ="homepage.html" class = "navbar-brand pt-3">Trust & Rust</p>
+                  </a>
+               </div>
+               <button class="navbar-toggler border border-4 border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-icon">
+                  <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+               </span>
+               </button>
+               <div class="collapse navbar-collapse " id="navbarNav">
+                  <ul class="navbar-nav ms-auto align-items-end">
+                     <li class="nav-item">
+                        <a class="nav-link active" href="servers.html">Servers</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="staff-applications.html">Job</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="staff-current.html">Staff</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blogs</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="server-banner server-bos-sm bg-image py-5">
+            <div class="container text-center py-5">
+               <h1 class="display-4 mb-0 fw-bold text-light">Servers</h1>
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class = "content">
+            <div class = "container text-center">
+               <div class = "row justify-content-center pb-4">
+                  <div class = "col-12 col-lg-8">
+                     <h3>There are currently <b>6</b> servers online!</h3>
+                  </div>
+               </div>
+               <div class = "row vgap justify-content-center mt-20">
+                  <div class ="col-12 col-mg-6 col-lg-4 server">
+                     <a href="#" class ="server-feature text-decoration-none" onclick="copyIP(0)">
+                        <span class = "server-feature-title h4">EU Solo</span>
+                        <span class = "server-feature-text h3">53/200</span>
+                        <div class = "row">
+                           <span class="server-feature-text h5" style="border-right: 1px solid #aa0c0c; height: 60px; flex: 0 0 50%; max-width: 50%; text-align: right; padding-right: 10px; line-height: 1.7;">Last Wipe<br>11/30/2023</span>
+                           <span class="server-feature-text h5" style="flex: 0 0 50%; max-width: 50%; text-align: left; padding-left: 10px; line-height: 1.7;">Next Wipe<br>12/20/2023</span>
+                        </div>
+                        <span class="server-feature-text h3">Click to copy IP</span>
+                     </a>
+                  </div>
+                  <div class ="col-12 col-mg-6 col-lg-4 server" >
+                     <a href="#" class ="server-feature text-decoration-none" onclick="copyIP(1)">
+                        <span class = "server-feature-title h4">EU Duo</span>
+                        <span class = "server-feature-text h3">165/200</span>
+                        <div class = "row">
+                           <span class="server-feature-text h5" style="border-right: 1px solid #aa0c0c; height: 60px; flex: 0 0 50%; max-width: 50%; text-align: right; padding-right: 10px; line-height: 1.7;">Last Wipe<br>11/29/2023</span>
+                           <span class="server-feature-text h5" style="flex: 0 0 50%; max-width: 50%; text-align: left; padding-left: 10px; line-height: 1.7;">Next Wipe<br>12/24/2023</span>
+                        </div>
+                        <span class="server-feature-text h3">Click to copy IP</span>
+                     </a>
+                  </div>
+                  <div class ="col-12 col-mg-6 col-lg-4 server">
+                     <a href="#" class ="server-feature text-decoration-none" onclick="copyIP(2)">
+                        <span class = "server-feature-title h4">EU Trio</span>
+                        <span class = "server-feature-text h3">105/200</span>
+                        <div class = "row">
+                           <span class="server-feature-text h5" style="border-right: 1px solid #aa0c0c; height: 60px; flex: 0 0 50%; max-width: 50%; text-align: right; padding-right: 10px; line-height: 1.7;">Last Wipe<br>11/30/2023</span>
+                           <span class="server-feature-text h5" style="flex: 0 0 50%; max-width: 50%; text-align: left; padding-left: 10px; line-height: 1.7;">Next Wipe<br>12/24/2023</span>
+                        </div>
+                        <span class="server-feature-text h3">Click to copy IP</span>
+                     </a>
+                  </div>
+                  <div class ="col-12 col-mg-6 col-lg-4 server">
+                     <a href="#" class ="server-feature text-decoration-none" onclick="copyIP(3)">
+                        <span class = "server-feature-title h4">US Solo</span>
+                        <span class = "server-feature-text h3">65/200</span>
+                        <div class = "row">
+                           <span class="server-feature-text h5" style="border-right: 1px solid #aa0c0c; height: 60px; flex: 0 0 50%; max-width: 50%; text-align: right; padding-right: 10px; line-height: 1.7;">Last Wipe<br>11/30/2023</span>
+                           <span class="server-feature-text h5" style="flex: 0 0 50%; max-width: 50%; text-align: left; padding-left: 10px; line-height: 1.7;">Next Wipe<br>12/23/2023</span>
+                        </div>
+                        <span class="server-feature-text h3">Click to copy IP</span>
+                     </a>
+                  </div>
+                  <div class ="col-12 col-mg-6 col-lg-4 server">
+                     <a href="#" class ="server-feature text-decoration-none" onclick="copyIP(4)">
+                        <span class = "server-feature-title h4">US Duo</span>
+                        <span class = "server-feature-text h3">125/200</span>
+                        <div class = "row">
+                           <span class="server-feature-text h5" style="border-right: 1px solid #aa0c0c; height: 60px; flex: 0 0 50%; max-width: 50%; text-align: right; padding-right: 10px; line-height: 1.7;">Last Wipe<br>11/29/2023</span>
+                           <span class="server-feature-text h5" style="flex: 0 0 50%; max-width: 50%; text-align: left; padding-left: 10px; line-height: 1.7;">Next Wipe<br>12/25/2023</span>
+                        </div>
+                        <span class="server-feature-text h3">Click to copy IP</span>
+                     </a>
+                  </div>
+                  <div class ="col-12 col-mg-6 col-lg-4 server">
+                     <a href="#" class ="server-feature text-decoration-none"onclick="copyIP(5)">
+                        <span class = "server-feature-title h4">US Trio</span>
+                        <span class = "server-feature-text h3">196/200</span>
+                        <div class = "row">
+                           <span class="server-feature-text h5" style="border-right: 1px solid #aa0c0c; height: 60px; flex: 0 0 50%; max-width: 50%; text-align: right; padding-right: 10px; line-height: 1.7;">Last Wipe<br>11/29/2023</span>
+                           <span class="server-feature-text h5" style="flex: 0 0 50%; max-width: 50%; text-align: left; padding-left: 10px; line-height: 1.7;">Next Wipe<br>12/23/2023</span>
+                        </div>
+                        <span class="server-feature-text h3">Click to copy IP</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <footer class="footer-div text-center text-white">
+         <div class="container p-4">
+            <section >
+               <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/fcpnch/" role="button"
+                  ><i class="fab fa-facebook-f"></i
+                  ></a>
+               <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/playrust?lang=en" role="button"
+                  ><i class="fab fa-twitter"></i
+                  ></a>
+               <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/fcpnch/?hl=en" role="button"
+                  ><i class="fab fa-instagram"></i
+                  ></a>
+            </section>
+         </div>
+      </footer>
+
+      <script src = "../scripts/copyIP.js"></script>
+      <script src = "../scripts/nav_scroll_collor.js"></script>
+      <script src ="../scripts/return_top.js"></script>
+      <script src="https://kit.fontawesome.com/0b41ea557e.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+   </body>
+</html>

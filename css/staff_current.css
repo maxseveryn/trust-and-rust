@@ -1,0 +1,49 @@
+h2, h3 {
+    padding: 20px 0;
+    color:white;
+}
+
+.bg-image {
+    background-image: url(../assets/images/staff_banner.png);
+}
+
+.staff-div {
+    background-color: #141414;
+}
+
+.member {
+    padding: 30px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.player {
+    padding: 30px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+}
+
+.player-thumbnail img {
+    width: 180px;
+    height: 180px;
+    border-radius: 25%;
+}
+
+.player-title a {
+    color: white;
+    text-decoration: none;
+}
+
+.player-info {
+    list-style: none;
+    padding: 0;
+}
+
+.player-info li {
+    color: #868e96;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}

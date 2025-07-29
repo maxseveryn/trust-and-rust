@@ -1,0 +1,30 @@
+.bg-image {
+    background-image: url(../assets/images/banner_background.jpg);
+}
+
+.content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.server-feature {
+    display: block;
+    color:white;
+    line-height: 4em;
+    padding: 40px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+}
+
+.server-feature-title {
+    display: block;
+    margin-bottom: 20px;
+}
+
+h5, .h5 {
+    font-size: 1.125rem;
+}
+
+.server {
+    padding-bottom: 30px;
+}
