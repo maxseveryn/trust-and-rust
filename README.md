@@ -20,4 +20,5 @@ Project developed in 2023 as part of a university assignment.
 
 ## Preview
 
+Video:
 [![Watch the video](./assets/video_preview.png)](https://www.youtube.com/watch?v=aIEv8op_KT4)
